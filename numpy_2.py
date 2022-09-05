@@ -1,0 +1,18 @@
+import numpy as np
+
+matrix = np.array([[1,1,1],[1,1,1],[1,1,1]])
+print(matrix)
+matrix = np.ones(5)
+print(matrix)
+matrix = np.ones((3,4))
+print(matrix)
+matrix = np.ones((3,4), dtype=int)
+print(matrix)
+matrix = np.zeros((3,4), dtype=int)
+print(matrix)
+matrix = np.zeros((3,4), dtype=bool)
+print(matrix)
+matrix = np.zeros((3,4), dtype=str)
+print(matrix)
+matrix = np.empty((3,4))
+print(matrix)
