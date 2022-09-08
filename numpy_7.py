@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # trignometric functions
 print(np.sin(180)) 
 print(np.sin(90)) 
-print(np.cos(180)) 
+print(np.cos(180 * np.pi/180)) # radians
 print(np.cos(90)) 
 print(np.tan(45)) 
 
