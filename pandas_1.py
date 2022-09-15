@@ -1,5 +1,7 @@
 import pandas as pd
 
+
+# pandas series
 print( pd.__version__ )
 
 lst = [1, 2.4, "hi hello bye buffalo", -1]
